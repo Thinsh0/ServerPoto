@@ -1,0 +1,3015 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "ServerPoto-1.20.1",
+      "name": "ServerPoto",
+      "description": "",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "91.197.6.11:26364",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.18",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7395,
+            "MD5": "d9147f2a7e0fb2216a846f4d5cf4c5c5",
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.18/lowcodelanguage-1.20.1-47.4.18.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.18",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16629,
+                "MD5": "70fe69d4eccce5bb1c380c8fd1691aed",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/versions/1.20.1-forge-47.4.18/1.20.1-forge-47.4.18.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.18",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118909,
+                "MD5": "bda6dab28bf3b075b888d8e131385c13",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.18/fmlcore-1.20.1-47.4.18.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.18",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16851,
+                "MD5": "45ded69363c7b964b31937455759984a",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.18/javafmllanguage-1.20.1-47.4.18.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.18",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4995,
+                "MD5": "c9069482062cbe2f59658e9d18f5442d",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.18/mclanguage-1.20.1-47.4.18.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.18:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2507779,
+                "MD5": "79b2278f66cdb5bade5d87595218fc7d",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.18:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.18/forge-1.20.1-47.4.18-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126252,
+                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 75010,
+                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51963,
+                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94643,
+                "MD5": "fd4d359daf227302ab9cefd36476ca72",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35170,
+                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.2.33",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.18",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269391,
+                "MD5": "2946d758615b111e7591dbe1e255f6e3",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.18/fmlloader-1.20.1-47.4.18.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.18",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170513,
+                "MD5": "17e3fd3a9544b2b98fa5964d0e0a06e9",
+                "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.18/fmlearlydisplay-1.20.1-47.4.18.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.wispforest:curios:7.4.0+1.20.1@jar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 388707,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/accessories_cclayer_7_4_0_beta_18_1_20_1.jar",
+            "MD5": "10a31940cc4e1171e0df5950fcf1b841"
+          }
+        },
+        {
+          "id": "io.wispforest.accessories.neoforge:accessories:1.0.0-beta48+1.20.1@jar",
+          "name": "Accessories",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1080048,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/accessories_neoforge_1_0_0_beta_48_1_20_1.jar",
+            "MD5": "bf30aed6a212f5dbff089ccb981bce20"
+          }
+        },
+        {
+          "id": "generated.forgemod:accessorify_2_4_0_beta_5_1_20_1_fabric:0.0.0@jar",
+          "name": "Accessorify_2_4_0_beta_5_1_20_1_fabric",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 431446,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/accessorify_2_4_0_beta_5_1_20_1_fabric.jar",
+            "MD5": "c34ba2005898e57b2ec26cbe454611ea"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.6.9@jar",
+          "name": "Advancement Plaques",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 208850,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/advancementplaques_resources.jar",
+            "MD5": "508c73f2941ae3d48cbf197ba390ecdd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.alexmodguy:alexscaves:2.0.2@jar",
+          "name": "Alex's Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 74871657,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/alexscaves_2_0_2.jar",
+            "MD5": "6c8793ee5e1aa852fdb430a9cdaccdc5"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/alexsmobs_1_22_9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
+          "id": "com.frikinjay:almanac:1.0.2@jar",
+          "name": "Almanac",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15906,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/almanac_1_20_x_forge_1_0_2.jar",
+            "MD5": "20f9b054f4caceebda02847c149901af"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.20-2.2.5@jar",
+          "name": "Amendments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1301022,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/amendments_1_20_2_2_5.jar",
+            "MD5": "3e821a83a3a12bc9ca0fecb73a980dba"
+          }
+        },
+        {
+          "id": "com.starfish_studios:another_furniture:1.20.1-3.0.4@jar",
+          "name": "Another Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2463633,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/another_furniture_forge_1_20_1_3_0_4.jar",
+            "MD5": "cc1fc7aaac4322d79446e3b5243cfe70"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/appleskin_forge_mc1_20_1_2_5_1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/architectury_9_2_14_forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/architectury_9_2_14_forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.armorstatues:armorstatues:8.0.6@jar",
+          "name": "Armor Statues",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 528017,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/armorstatues_v8_0_6_1_20_1_forge.jar",
+            "MD5": "ef01e94b3584095ecc1cbded1b164030"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.compatibility:armourers_workshop:3.2.7-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5904485,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/armourersworkshop_forge_1_20_1_3_2_7_beta.jar",
+            "MD5": "24414e0c8a6cfef7bfa3ac7ab653cc14"
+          }
+        },
+        {
+          "id": "forge.fun.qu_an.minecraft.asyncparticles.client:asyncparticles:2.4.0-beta.3@jar",
+          "name": "AsyncParticles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1297496,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/asyncparticles_2_4_0_beta_3_1_20_1.jar",
+            "MD5": "63639a2fb216f5870a757b05ab332665"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mc.mian:atg:2.0.3@jar",
+          "name": "Attack Through Grass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18890,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/atg_2_0_3_1_20_1.jar",
+            "MD5": "703a84f62a915184f42ef232b5c4812f"
+          }
+        },
+        {
+          "id": "earth.terrarium:athena:3.1.2@jar",
+          "name": "Athena",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91808,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/athena_forge_1_20_1_3_1_2.jar",
+            "MD5": "2086e326e8f0ff2f8d7d05c66c291484"
+          }
+        },
+        {
+          "id": "forge.me.thosea:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460234,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/badoptimizations_2_4_1_1_20_1.jar",
+            "MD5": "f8dd994ef309213c5dae5cbeef53123c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.38@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 591398,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/balm_forge_1_20_1_7_3_38_all.jar",
+            "MD5": "2ff18975f2b4d0570f8eeeae85b66e42"
+          }
+        },
+        {
+          "id": "com.mao.barbequesdelight.init:barbequesdelight:1.0.5@jar",
+          "name": "Barbeque's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867081,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/barbequesdelight_1_0_5.jar",
+            "MD5": "baf9db3e45974887e0e73cd2f1f35efb"
+          }
+        },
+        {
+          "id": "org.betterx:bclib:20.0.9@jar",
+          "name": "BCLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2177038,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/bclib_20_0_9.jar",
+            "MD5": "1a69a50f3479f4b601ba7afb10b4cb7c"
+          }
+        },
+        {
+          "id": "artemis.better_climbing:better_climbing:3@jar",
+          "name": "Better Climbing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12199,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/better_climbing_forge_3.jar",
+            "MD5": "e82dba2f2e5ab2f1d88fb78c934588c3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.bettersmithingtable:better_smithing_table:2.1.0@jar",
+          "name": "BetterSmithingTable",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73189,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/better_smithing_table_2_1_0_1_20_forge.jar",
+            "MD5": "6d36c395adbf4d8ffa9d75d551e837a9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "betteradvancements.neoforge:betteradvancements:0.4.2.25@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98274,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/betteradvancements_neoforge_1_20_1_0_4_2_25.jar",
+            "MD5": "57538ea688a3eca6efa4a0f93df458ae"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.betterx:betterend:20.0.8@jar",
+          "name": "Better End",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 93563673,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/betterend_20_0_8.jar",
+            "MD5": "a5850629c19a9db3877082dc88f5c347"
+          }
+        },
+        {
+          "id": "org.betterx:betternether:20.0.10@jar",
+          "name": "Better Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23322486,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/betternether_20_0_10.jar",
+            "MD5": "afa815da5ee7dea2450e69e67035efc8"
+          }
+        },
+        {
+          "id": "com.vladmarica:betterpingdisplay:1.1@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15889,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/betterpingdisplay_1_20_1_1_1.jar",
+            "MD5": "2a331e8f5a7cc2609d67f7975fba7d7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:bettervillage:3.3.1@jar",
+          "name": "Better village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2612507,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/bettervillage_forge_1_20_1_3_3_1_all.jar",
+            "MD5": "9366ea537d6b7d7c00567f5edb27679b"
+          }
+        },
+        {
+          "id": "biomesoplenty.forge.core:biomesoplenty:19.0.0.96@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22381010,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/biomesoplenty_forge_1_20_1_19_0_0_96.jar",
+            "MD5": "1b20a91a2b013ccad6cd56279a459b12"
+          }
+        },
+        {
+          "id": "net.mcreator:bloxysstructures:1.16.0@jar",
+          "name": "BloxysStructures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4570588,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/bloxysstructures_1_16_0.jar",
+            "MD5": "26a55c66dc72c8b852abded25128badc"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:20.2.15@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 343925,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/bookshelf_forge_1_20_1_20_2_15.jar",
+            "MD5": "984cc53b314436f57e3bf72b8a1ba62b"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:20.2.15@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 343925,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/bookshelf_forge_1_20_1_20_2_15.jar",
+            "MD5": "984cc53b314436f57e3bf72b8a1ba62b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcreator.borninchaosv:born_in_chaos_v1:1.7.3@jar",
+          "name": "Born in Chaos ",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11833732,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/born_in_chaos_forge_1_20_1_1_7_4.jar",
+            "MD5": "91421c8987f66246cb6e958bb389336c"
+          }
+        },
+        {
+          "id": "me.cg360.mod.bridging.entrypoint:bridgingmod:2.5.1+1.20.1@jar",
+          "name": "Bridging Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3581195,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/bridgingmod_2_5_1_1_20_1_forge_release.jar",
+            "MD5": "b14c0b898e506c1e0b99266b998220c7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.direwolf20:buildinggadgets2:1.0.8@jar",
+          "name": "Building Gadgets 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3833683,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/buildinggadgets2_1_0_8.jar",
+            "MD5": "8e804b7a62c8011375e5821ad2a9dc07"
+          }
+        },
+        {
+          "id": "com.direwolf20:charginggadgets:1.11.0@jar",
+          "name": "Charging Gadgets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67599,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/charginggadgets_1_11_0.jar",
+            "MD5": "9161d12f07cc925974e91e238bb96c52"
+          }
+        },
+        {
+          "id": "com.ezzenix:chatanimation:1.1.3@jar",
+          "name": "ChatAnimation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 381473,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/chatanimation_forge_1_20_1_1_1_3.jar",
+            "MD5": "4d20168e4327b7e6357eb108030a0baf"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "earth.terrarium:chipped:3.0.7@jar",
+          "name": "Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15060263,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/chipped_forge_1_20_1_3_0_7.jar",
+            "MD5": "c6c76e78805b357757bf47b04c7286e7"
+          }
+        },
+        {
+          "id": "com.periut:chisel:2.0.0+mc1.20.1@jar",
+          "name": "Chisel Reborn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8265809,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/chisel_forge_2_0_0_mc1_20_1.jar",
+            "MD5": "468657845ffc4f5eed8e1d3ad22933af"
+          }
+        },
+        {
+          "id": "me.srrapero720:chloride:1.7.5@jar",
+          "name": "Chloride",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 956080,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/chloride_forge_mc1_20_1_v1_7_5.jar",
+            "MD5": "871f2041941d801f7708a9123b9c41b8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.supermartijn642:chunkloaders:1.2.9@jar",
+          "name": "Chunk Loaders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 155478,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/chunkloaders_1_2_9_forge_mc1_20_1.jar",
+            "MD5": "c5522e61b188ce0637ea042116e39e85"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.3@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185275,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/citadel_2_6_3_1_20_1.jar",
+            "MD5": "da80c09b998d829b6d580e5be76dcc7b"
+          }
+        },
+        {
+          "id": "cc.cassian:clickthrough:3.5.1+1.20.1@jar",
+          "name": "ClickThrough Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 248322,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/clickthrough_plus_forge_3_5_1_1_20_1.jar",
+            "MD5": "9964d6308ab9ad71dee804841b0a2f78"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/cloth_config_11_1_136_forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/cloth_config_11_1_136_forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20300,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/clumps_forge_1_20_1_12_0_0_4.jar",
+            "MD5": "7a71806a1167d866608fc2e8c7d62041"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20300,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/clumps_forge_1_20_1_12_0_0_4.jar",
+            "MD5": "7a71806a1167d866608fc2e8c7d62041"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:connector_1_0_0_beta_48_1_20_1:0.0.0@jar",
+          "name": "Connector_1_0_0_beta_48_1_20_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5043870,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/connector_1_0_0_beta_48_1_20_1.jar",
+            "MD5": "3abc5720b82e8d9f8986f65776b8cfe0"
+          }
+        },
+        {
+          "id": "generated.forgemod:connector_1_0_0_beta_48_1_20_1:0.0.0@jar",
+          "name": "Connector_1_0_0_beta_48_1_20_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5043870,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/connector_1_0_0_beta_48_1_20_1.jar",
+            "MD5": "3abc5720b82e8d9f8986f65776b8cfe0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "thetadev.constructionwand:constructionwand:1.20.1-2.11@jar",
+          "name": "Construction Wand",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 210312,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/constructionwand_1_20_1_2_11.jar",
+            "MD5": "e17b0f6b4fa378d6750a9030a5aca9e0"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115280,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/controlling_forge_1_20_1_12_0_2.jar",
+            "MD5": "dc94fc03e516d96aad393b26910c81ad"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/coroutil_forge_1_20_1_1_3_7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          }
+        },
+        {
+          "id": "net.inertis:creativeflightspeed:1.0.0@jar",
+          "name": "Creative Flight Speed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10664,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/creativeflightspeed_1_0_0.jar",
+            "MD5": "e3aaa76c3dbac7ec1b0906c9aeb76f99"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.cristellib:cristellib:1.1.6@jar",
+          "name": "Cristel Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 431318,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/cristellib_1_1_6_forge.jar",
+            "MD5": "b52e8b225a34abab9300049c85f6855a"
+          }
+        },
+        {
+          "id": "com.periut:cryonicconfig:1.0.0+mc1.20.1@jar",
+          "name": "Cryonic Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133781,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/cryonicconfig_forge_1_0_0_mc1_20_1.jar",
+            "MD5": "60ab26361727a2712bb9f5ffd72226c2"
+          }
+        },
+        {
+          "id": "me.polishkrowa:ctrlq:1.9.1@jar",
+          "name": "Ctrl Q",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19180,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/ctrl_q_1_9_1_forge.jar",
+            "MD5": "9e6382b594022e40fbddc6035f4cfec2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.kir.cubeswithoutborders.client:cubes_without_borders:3.0.0+mc1.20@jar",
+          "name": "Cubes Without Borders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258613,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/cwb_forge_3_0_0_mc1_20.jar",
+            "MD5": "71c31fd8c44e94876c520c3f58fcd95b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.redlimerl:detailab:2.7.0+1.20.1-forge@jar",
+          "name": "细节盔甲条：重装",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 62044,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/detail_armor_bar_re_equipment_2_7_0_1_20_1_forge.jar",
+            "MD5": "1f6f155224608b28edc76e864587825c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.diagonalfences:diagonalfences:8.1.5@jar",
+          "name": "Diagonal Fences",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182476,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/diagonalfences_v8_1_5_1_20_1_forge.jar",
+            "MD5": "29bc8833f5d9b1edcb32617e16a9ec5e"
+          }
+        },
+        {
+          "id": "fuzs.diagonalwalls:diagonalwalls:8.0.4@jar",
+          "name": "Diagonal Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 173567,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/diagonalwalls_v8_0_4_1_20_1_forge.jar",
+            "MD5": "4f0de81465cddd09bf866eb38c1922f3"
+          }
+        },
+        {
+          "id": "fuzs.diagonalwindows:diagonalwindows:8.1.5@jar",
+          "name": "Diagonal Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183094,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/diagonalwindows_v8_1_5_1_20_1_forge.jar",
+            "MD5": "6a4ffa39c08847b280c66f0907b32668"
+          }
+        },
+        {
+          "id": "com.jkvin114:displaydelight:1.4.0@jar",
+          "name": "Display Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1018387,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/displaydelight_1_4_0.jar",
+            "MD5": "b8102e7532f80b02356a814f86ce9263"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:dummmmmmy:1.20-2.0.9@jar",
+          "name": "MmmMmmMmmmmm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 363044,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/dummmmmmy_1_20_2_0_9.jar",
+            "MD5": "4d3c04e63f560cfb51d100b7a4e78563"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_dungeons_andtaverns:3.0.3.f@jar",
+          "name": "Dungeons and Taverns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13161907,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/dungeons_and_taverns_3_0_3_f.jar",
+            "MD5": "0ee71a2bc5cd3f81f155a57960b05dd9"
+          }
+        },
+        {
+          "id": "com.supermartijn642:durabilitytooltip:1.1.6@jar",
+          "name": "Durability Tooltip",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22344,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/durabilitytooltip_1_1_6_forge_mc1_20.jar",
+            "MD5": "bad7f67ed1b4b322654d6b9a58a611cb"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 402345,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/dynamic_fps_3_11_4_minecraft_1_20_0_forge.jar",
+            "MD5": "f8df69d0af455b6f47acb88ab747d1a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.20.1-1.4.10@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3754640,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/dynamictrees_1_20_1_1_4_10.jar",
+            "MD5": "5894dcd9b389c1c0252ceb006e97ab52"
+          }
+        },
+        {
+          "id": "therealeststu.dtbop:dtbop:1.20.1-3.3.4@jar",
+          "name": "Dynamic Trees for Biomes o' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 419954,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/dynamictreesbop_1_20_1_3_3_4.jar",
+            "MD5": "5716d539116dca02075d5bfad9d287b4"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictreesplus:1.20.1-1.2.2@jar",
+          "name": "Dynamic Trees Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 534713,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/dynamictreesplus_1_20_1_1_2_2.jar",
+            "MD5": "cbf483b0f1c2b9faafd95ff9f3e47233"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities.core:ebe:0.9.1-BETA@jar",
+          "name": "EnlightedBlockEntities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 287043,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/ebe_1_20_1_20_1_0_9_1b.jar",
+            "MD5": "7bbd004592ab94975c8e1e645d58cd7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.raptor:ecopoto:1.0.0@jar",
+          "name": "EcoPoto",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 141082,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/ecopoto_1_6_0.jar",
+            "MD5": "b0d1f18789b4f71ab265cb28b0e2423c"
+          }
+        },
+        {
+          "id": "dev.kikugie.elytratrims.platform:elytratrims:3.9.3@jar",
+          "name": "Elytra Trims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1324313,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/elytratrims_forge_3_9_3_1_20_1.jar",
+            "MD5": "62ef93be986909d904cb5e1c7892ccdd"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/embeddium_0_3_31_mc1_20_1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:17.1.21@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66883,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/enchantmentdescriptions_forge_1_20_1_17_1_21.jar",
+            "MD5": "82f3fc15d2b48e0bde064704e76a849a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.17@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 685153,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/entity_model_features_1_20_1_forge_3_0_17.jar",
+            "MD5": "fee3c92f8e755c5b54ab87c489325406"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.13@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 927665,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/entity_texture_features_1_20_1_forge_7_0_13.jar",
+            "MD5": "aad82446323176e4c914d531ad4eb706"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.0@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1577833,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/entityculling_forge_1_10_0_mc1_20_1.jar",
+            "MD5": "ccac3c3197dda5d4ac4ccdb3d0af312e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure:1.9.20@jar",
+          "name": "Exposure",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2249505,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/exposure_forge_1_20_1_1_9_20.jar",
+            "MD5": "b4adbdc1368921a238a039d28ad83d7e"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/fabric_api_0_92_6_1_11_14_1_20_1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/fabric_api_0_92_6_1_11_14_1_20_1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:fabric_api_0_92_7_1_20_1:0.0.0@jar",
+          "name": "Fabric_api_0_92_7_1_20_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2107977,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/fabric_api_0_92_7_1_20_1.jar",
+            "MD5": "789c66d62c1ef077c457a10191d7df23"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "hantonik.fbp:fbp:20.1.6.0@jar",
+          "name": "FancyBlockParticles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 495691,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/fancyblockparticles_1_20_1_forge_20_1_6_0.jar",
+            "MD5": "54b05ee0802e9bed397d2df2e515de0e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.11@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2963127,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/farmersdelight_1_20_1_1_2_11.jar",
+            "MD5": "50a4531d1ec39a9d314d48ac79f15271"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/ferritecore_6_0_1_forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/ferritecore_6_0_1_forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.suel_ki:foodeffecttooltips:1.3.0@jar",
+          "name": "Food Effect Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18923,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/foodeffecttooltips_forge_1_20_1_1_3_0.jar",
+            "MD5": "c6d8936b6e5b62d0ec1b2e29b453bde1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.thinkingstudio:forgematica:0.1.13-mc1.20.1@jar",
+          "name": "Forgematica",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997501,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/forgematica_0_1_13_mc1_20_1.jar",
+            "MD5": "8def10203e22c87e5820ecf2efd14184"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xfacthd.framedblocks:framedblocks:9.4.3@jar",
+          "name": "FramedBlocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4251314,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/framedblocks_9_4_3.jar",
+            "MD5": "9afefc077f00c192b0f953c2987c5a66"
+          }
+        },
+        {
+          "id": "com.faboslav:friendsandfoes:3.0.9@jar",
+          "name": "Friends&Foes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3622128,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/friendsandfoes_forge_mc1_20_1_3_0_9.jar",
+            "MD5": "d85705f9ccc062d77f1204f86aff8e1d"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.12@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 780523,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/ftb_library_forge_2001_2_12.jar",
+            "MD5": "8bbd067159587d80f1c5286ea52e567b"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:2001.3.2@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252579,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/ftb_teams_forge_2001_3_2.jar",
+            "MD5": "1c547d6f1b22f461f84c5fb79067b0ec"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2374667,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/fzzy_config_0_7_6_1_20_1_forge.jar",
+            "MD5": "f48f8112f6e2d161c655b750f6bfd0c8"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2374667,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/fzzy_config_0_7_6_1_20_1_forge.jar",
+            "MD5": "f48f8112f6e2d161c655b750f6bfd0c8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1039047,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/geckolib_forge_1_20_1_4_8_3.jar",
+            "MD5": "60b7bce466abc60377785bf3dc84974c"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87551,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/glitchcore_forge_1_20_1_0_0_1_1.jar",
+            "MD5": "87d2b7104f4069d44741f58ebe1bb2bd"
+          }
+        },
+        {
+          "id": "com.mr_toad.gpu_tape.client:gpu_tape:1.0.5@jar",
+          "name": "GPUTape",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20295,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/gputape.jar",
+            "MD5": "0181fbed11c40debed8ebf5cdc815bab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:3.0.6@jar",
+          "name": "Handcrafted",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7111059,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/handcrafted_forge_1_20_1_3_0_6.jar",
+            "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:highlighter:1.1.9@jar",
+          "name": "Highlighter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29438,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/highlighter_1_20_1_forge_1_1_9.jar",
+            "MD5": "650eec32fdb7c58c30c4d9aa911073d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/iceberg_1_20_1_forge_1_1_25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 538992,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/immediatelyfast_forge_1_5_4_1_20_4.jar",
+            "MD5": "8fb21bb328cc322c6d9749eff087509f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "immersive_melodies:immersive_melodies:0.6.0+1.20.1@jar",
+          "name": "Immersive Melodies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5517578,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/immersive_melodies_0_6_0_1_20_1_forge.jar",
+            "MD5": "9b2903b86fbc565a3996b2d1fd78eb0d"
+          }
+        },
+        {
+          "id": "net.lopymine.ip.entrypoint:inventory_particles:1.5.0+1.20.1+forge@jar",
+          "name": "Inventory Particles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1728504,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/inventoryparticles_1_5_0_1_20_1_forge.jar",
+            "MD5": "b7cc20fcd0a612c12f6bde82f73bef3d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.redspace.ironspatreonlib:irons_patreon_lib:1.20.1-1.0.1@jar",
+          "name": "Iron's Patreon Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 374464,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/irons_patreon_lib_1_20_1_1_0_1.jar",
+            "MD5": "48325606e0348711a8b371dfe03e3bbf"
+          }
+        },
+        {
+          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.15.5.1@jar",
+          "name": "Iron's Spells 'n Spellbooks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15187252,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/irons_spellbooks_1_20_1_3_15_5_1.jar",
+            "MD5": "6909c8cbf2da1d6da2082d5cc0a10dde"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:itemborders:1.2.2@jar",
+          "name": "Item Borders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20832,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/itemborders_1_20_1_forge_1_2_2.jar",
+            "MD5": "793065b9ff71daee43319db717dac23f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/jade_1_20_1_forge_11_13_2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/jade_1_20_1_forge_11_13_2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.jade.addon:jadeaddons:5.5.0+forge@jar",
+          "name": "Jade Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91771,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/jadeaddons_1_20_1_forge_5_5_0.jar",
+            "MD5": "3e2fa5d8b2ec994ba416ec4f84d5ea60"
+          }
+        },
+        {
+          "id": "snownee.jade.addon:jadeaddons:5.5.0+forge@jar",
+          "name": "Jade Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91771,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/jadeaddons_1_20_1_forge_5_5_0.jar",
+            "MD5": "3e2fa5d8b2ec994ba416ec4f84d5ea60"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dk.magnusjensen:jademoddedentities:1.3.1@jar",
+          "name": "Jade Modded Entities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126343,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/jademoddedentities_forge_1_20_1_1_3_1.jar",
+            "MD5": "8045956f92b65f39fe3345f151a57a3a"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:jeed:1.20-2.2.5@jar",
+          "name": "Just Enough Effects Descriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159288,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/jeed_1_20_2_2_5.jar",
+            "MD5": "6792ef4a197457dcff0b4353e956a94d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.129@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409642,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/jei_1_20_1_forge_15_20_0_129.jar",
+            "MD5": "a5192227a15e0fe0e367828b32c1f472"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.129@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409642,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/jei_1_20_1_forge_15_20_0_129.jar",
+            "MD5": "a5192227a15e0fe0e367828b32c1f472"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160406,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/journeymap_1_20_1_5_10_3_forge.jar",
+            "MD5": "be46ebd4654a75a03ecbc5497d2ddce9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.kreezcraft:jumpoverfences:1.3.1@jar",
+          "name": "Jump Over Fences",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38496,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/jumpoverfences_forge_1_20_1_1_3_1.jar",
+            "MD5": "e212ad298a898ce26a83a904c2fea2f8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.christofmeg:justenoughbreeding:2.5.0@jar",
+          "name": "Just Enough Breeding",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 566806,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/justenoughbreeding_forge_1_20_1_20_1_2_5_0.jar",
+            "MD5": "4e1fb3c18e7bc232068cba108c57cf49"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/justenoughresources_1_20_1_1_4_0_247.jar",
+            "MD5": "413f7d427a16254ec8e08f78094a206d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:2.1.1@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 204574,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/justzoom_forge_2_1_1_mc_1_20_1.jar",
+            "MD5": "758fe904b5a22ce7b2df824c1a064858"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/konkrete_forge_1_8_0_mc_1_20_1_20_1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge_4_12_0_all:0.0.0@jar",
+          "name": "Kotlinforforge_4_12_0_all",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/kotlinforforge_4_12_0_all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge_4_12_0_all:0.0.0@jar",
+          "name": "Kotlinforforge_4_12_0_all",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/kotlinforforge_4_12_0_all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:3.26@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73914242,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/l_enders_cataclysm_3_26_enchant_fix.jar",
+            "MD5": "3024423cc1973fd41ba00ddf322f660d"
+          }
+        },
+        {
+          "id": "me.steinborn.lazydfu.client:lazydfu:1.1@jar",
+          "name": "LazyDFU [UNOFFICIAL PORT]",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13585,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/lazydfu_unofficial_1_20.jar",
+            "MD5": "1f5aebd01e20f1a636f12920a9a166e2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.leavemybarsalone:leavemybarsalone:8.0.0@jar",
+          "name": "Leave My Bars Alone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54288,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/leavemybarsalone_v8_0_0_1_20_1_forge.jar",
+            "MD5": "1c96dfe3794bb7dc03e4f555c79bc352"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55258,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/legendarytooltips_1_20_1_forge_1_4_5.jar",
+            "MD5": "18c8e50bb98e24d86aa96a8b25dc6091"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.frikinjay:letmedespawn:1.5.0@jar",
+          "name": "Let Me Despawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14789,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/letmedespawn_1_20_x_forge_1_5_0.jar",
+            "MD5": "0ff799ece663ddafab61ad32704fc51c"
+          }
+        },
+        {
+          "id": "generated.forgemod:libjf_3_12_5:0.0.0@jar",
+          "name": "Libjf_3_12_5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 999935,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/libjf_3_12_5.jar",
+            "MD5": "59ecccb381113a1860bdeebb1e27ef94"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.jtorleonstudios:libraryferret:4.0.0@jar",
+          "name": "Library ferret",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244410,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/libraryferret_forge_1_20_1_4_0_0.jar",
+            "MD5": "2fc42e82c5ab39bdd9ab80de2c8201b3"
+          }
+        },
+        {
+          "id": "dev.schhmarrn:lighty:2.1.3+1.20.1@jar",
+          "name": "Lighty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48592,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/lighty_forge_2_1_3_1_20_1.jar",
+            "MD5": "2e5b885d4fb02e24ce3e49933a8742bc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:2.4@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 165468,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/lionfishapi_2_4.jar",
+            "MD5": "53ec5280c6db0984f4bee51b7ebf5800"
+          }
+        },
+        {
+          "id": "dev.worldgen:lithostitched:1.4.11@jar",
+          "name": "Lithostitched",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 476347,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/lithostitched_forge_1_20_1_1_4_11.jar",
+            "MD5": "3c596bbc1b5f769f22be751e9c21a6c8"
+          }
+        },
+        {
+          "id": "net.longerchathistory:longerchathistory:1.3@jar",
+          "name": "Longer Chat History",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7757,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/longerchathistory_1_3_forge.jar",
+            "MD5": "f0a3e89a3e42f1db2ef27e4744c34b0b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.35.94@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 463485,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/lootr_forge_1_20_0_7_35_94.jar",
+            "MD5": "56dd6966de4ba641cf00ef5b9ce8d2d7"
+          }
+        },
+        {
+          "id": "org.thinkingstudio:mafglib:0.1.14-mc1.20.1@jar",
+          "name": "MaFgLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521709,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/mafglib_0_1_14_mc1_20_1.jar",
+            "MD5": "739a08ec65e3c5cdd5bfc64adc90947d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.magnumtorch:magnumtorch:8.0.2@jar",
+          "name": "Magnum Torch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90965,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/magnumtorch_v8_0_2_1_20_1_forge.jar",
+            "MD5": "77290be343a87db8b81b16ea95eb8e05"
+          }
+        },
+        {
+          "id": "com.cinemamod:mcef:2.1.6-1.20.1@jar",
+          "name": "MCEF (Minecraft Chromium Embedded Framework)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218417,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/mcef_forge_2_1_6_1_20_1.jar",
+            "MD5": "341d01e98e3835162cf8eb439e20dbfe"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/memoryleakfix_forge_1_17_1_1_5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "eu.midnightdust:midnightlib:1.4.1@jar",
+          "name": "MidnightLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63769,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/midnightlib_forge_1_4_1.jar",
+            "MD5": "9a665ffea487f48e8529ec4cf0d63b23"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "eu.midnightdust.core:midnightlib:1.9.2@jar",
+          "name": "MidnightLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61987,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/midnightlib_forge_1_9_2_1_20_1.jar",
+            "MD5": "e4903bab4c3cf86d64cadb21cd4f279e"
+          }
+        },
+        {
+          "id": "toni.miningspeedtooltips:miningspeedtooltips:1.0.0@jar",
+          "name": "Mining Speed Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 637165,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/miningspeedtooltips_forge_1_0_0_1_20_1.jar",
+            "MD5": "44a39123ddc317fc0158bd540f32456a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:modefite_item_definitions_1_0_3_1_20_1:0.0.0@jar",
+          "name": "Modefite_item_definitions_1_0_3_1_20_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 189936,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/modefite_item_definitions_1_0_3_1_20_1.jar",
+            "MD5": "257aec8b2f774292bac46ac54f807426"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.26.2+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 826829,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/modernfix_forge_5_26_2_mc1_20_1.jar",
+            "MD5": "61332114c9c317080faaf35f8183d67b"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.28@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1393921,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/moonlight_1_20_2_16_28_forge.jar",
+            "MD5": "16b9f89e07b2c567c610881f784cf6d1"
+          }
+        },
+        {
+          "id": "net.lopymine.mossylib.entrypoint:mossylib:1.1.0+1.20.1+forge@jar",
+          "name": "MossyLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 372774,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/mossylib_1_1_0_1_20_1_forge.jar",
+            "MD5": "a3c3f2f534b0080c2dcc48379bdd28c3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.8.2@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36033850,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/mowziesmobs_1_8_2.jar",
+            "MD5": "d650da053314d7384a537db1f316d11f"
+          }
+        },
+        {
+          "id": "dev.imb11.loader:mru:1.0.4+1.20.1+forge@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 287393,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/mru_1_0_4_1_20_1_forge.jar",
+            "MD5": "4485788a466877a0ddd42d3df84ea913"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.focamacho:myserveriscompatible:1.0@jar",
+          "name": "MyServerIsCompatible",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3482,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/myserveriscompatible_1_20_1_0.jar",
+            "MD5": "61d6f7c70030cbdacbbb0053cf120b79"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33251,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/necronomicon_forge_1_6_0_1_20_1.jar",
+            "MD5": "a1f1433ea551925436e6b170ac2ff619"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+          "name": "No Chat Reports",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 272740,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/nochatreports_forge_1_20_1_v2_2_2.jar",
+            "MD5": "3153d1e860c6fefe6dac26efdb5c40c6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.thinkingstudio:obsidianui:0.2.3+mc1.20.1@jar",
+          "name": "ObsidianUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212286,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/obsidianui_forge_0_2_3_mc1_20_1.jar",
+            "MD5": "323ee5036a5113c1529520430e7b6a04"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
+          "name": "OctoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 424035,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/octolib_forge_0_5_0_1_1_20_1.jar",
+            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/oculus_mc1_20_1_1_8_0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tonimatas:packetfixer:3.3.2@jar",
+          "name": "PacketFixer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 188661,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/packetfixer_3_3_2_1_18_1_20_4_merged.jar",
+            "MD5": "494234194e4ce530719281d558510cf5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:particle_core:0.3.3+1.20.1+forge@jar",
+          "name": "Particle Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 773448,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/particle_core_0_3_3_1_20_1_forge.jar",
+            "MD5": "eb8ce770b3ddc793df437bfcec169a6d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lopymine.pe.entrypoint:particle_effects:1.3.0+1.20.1+forge@jar",
+          "name": "Particle Effects",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 500939,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/particleeffects_1_3_0_1_20_1_forge.jar",
+            "MD5": "11a82e69393c29ad3d21a7ce11a4a67c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "nx.pingwheel:pingwheel:1.12.1@jar",
+          "name": "Ping Wheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157314,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/ping_wheel_1_12_1_forge_1_20_1.jar",
+            "MD5": "1881c256b86f5a4f744df7a1df362143"
+          }
+        },
+        {
+          "id": "com.tiviacz:pizzadelight:1.0.2@jar",
+          "name": "Pizza Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 280484,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/pizzadelight_1_20_1_1_0_2.jar",
+            "MD5": "bdbf1642d0cf230f82d506cedbc73754"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.8@jar",
+          "name": "Plasmo Voice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12182458,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/plasmovoice_forge_1_20_1_2_1_8.jar",
+            "MD5": "234d1a76ae25f5efc220ac879981c7e0"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/player_animation_lib_forge_1_0_2_rc1_1_20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:polytone:1.20-3.5.22@jar",
+          "name": "Polytone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1167608,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/polytone_1_20_3_5_22.jar",
+            "MD5": "26c73fc5f4bd7197af8a52c7601d5a58"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52205,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/prism_1_20_1_forge_1_0_5.jar",
+            "MD5": "de0e319e29e813f407314b33739f7eb8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "punchy:punchy:1.20.1@jar",
+          "name": "Punchy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1180194,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/punchy_2_4_5_forge_1_20_1.jar",
+            "MD5": "897becef993713a7cc4c910f4e049e8e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342987,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/puzzleslib_v8_1_33_1_20_1_forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342987,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/puzzleslib_v8_1_33_1_20_1_forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehdinoui:ramadandelight:1.7@jar",
+          "name": "Ramadan Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 529603,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/ramadandelight_1_20_1_1_7.jar",
+            "MD5": "df488683000d6cb41ed5f35f7a85b4be"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefulconfig:2.1.3@jar",
+          "name": "Resourcefulconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136923,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/resourcefulconfig_forge_1_20_1_2_1_3.jar",
+            "MD5": "947463b04c043937cd24506842f737a3"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432753,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/resourcefullib_forge_1_20_1_2_1_29.jar",
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+          }
+        },
+        {
+          "id": "generated.forgemod:respackopts_4_6_2:0.0.0@jar",
+          "name": "Respackopts_4_6_2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 350174,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/respackopts_4_6_2.jar",
+            "MD5": "3ff611b7a17da4e654382c6444fc01d0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mongoose:royalvariations:2.0.2@jar",
+          "name": "Royal Variations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 795990,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/royal_variations_forge_1_20_1_2_0_2.jar",
+            "MD5": "191bd193e6717d03f4cb466321b6ebc8"
+          }
+        },
+        {
+          "id": "org.thinkingstudio:ryoamiclights:0.2.3+mc1.20.1@jar",
+          "name": "RyoamicLights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 160065,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/ryoamiclights_forge_0_2_3_mc1_20_1.jar",
+            "MD5": "8333a60ae9b958c6d180dc1a3baf6311"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.1.3@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92319,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/saturn_mc1_20_1_0_1_3.jar",
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "link.infra:screenshotclipboard:1.0.9@jar",
+          "name": "Screenshot to Clipboard",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16472,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/screenshot_to_clipboard_1_0_9_forge.jar",
+            "MD5": "8d20d50d2bd041ecda38d2f1a1949b90"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/searchables_forge_1_20_1_1_0_3.jar",
+            "MD5": "68fb3fa702de7e10194c5b8a3d25b5b0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
+          "name": "ShulkerBoxTooltip",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 221121,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/shulkerboxtooltip_forge_4_0_4_1_20_1.jar",
+            "MD5": "434195aff2ce2f48b3aea5434b281e71"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.abdelaziz:smoothboot:0.0.4@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41044,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/smoothboot_reloaded_mc1_20_1_0_0_4.jar",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/sodiumdynamiclights_forge_1_0_10_1_20_1.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/sodiumoptionsapi_forge_1_0_10_1_20_1.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsmodcompat:sodiumoptionsmodcompat:1.0.0@jar",
+          "name": "Sodium Options Mod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181056,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/sodiumoptionsmodcompat_forge_1_0_0_1_20_1.jar",
+            "MD5": "b4ba44d85f2714e818cc8534f46c8914"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.23.27.1320@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 935693,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/sophisticatedbackpacks_1_20_1_3_23_27_1320.jar",
+            "MD5": "be0565727543d6b6bc6e56237b5b4385"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.84.1117@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1341163,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/sophisticatedcore_1_20_1_1_2_84_1117.jar",
+            "MD5": "40c0acc52afa07117f7d979095550d2e"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206984,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/sound_physics_remastered_forge_1_20_1_1_5_1.jar",
+            "MD5": "6e3efd49fceebe9026b8f831518e0048"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.5.1@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206984,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/sound_physics_remastered_forge_1_20_1_1_5_1.jar",
+            "MD5": "6e3efd49fceebe9026b8f831518e0048"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.imb11.sounds.loaders:sounds:2.2.1+1.20.1+forge@jar",
+          "name": "Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10974911,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/sounds_2_2_1_1_20_1_forge.jar",
+            "MD5": "ea8427a4988c1f5ad6b5ed7a38b8224d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.10.53@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3114590,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/spark_1_10_53_forge.jar",
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.spudacious5705.shops:spudaciousshops:1.10.2-forge-1.20.1@jar",
+          "name": "Spud's Shops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 937777,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/spudaciousshops_1_10_2_forge_1_20_1.jar",
+            "MD5": "5584186e9876151bf6f6ae57cde715c3"
+          }
+        },
+        {
+          "id": "me.frankv:staaaaaaaaaaaack:1.20.1-1.5-71@jar",
+          "name": "Staaaaaaaaaaaack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38494,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/staaaaaaaaaaaack_forge_1_20_1_1_5_71.jar",
+            "MD5": "4ed8ca9df18aceaae16f8c0239ac9ce0"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/supermartijn642configlib_1_1_8_forge_mc1_20.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/supermartijn642configlib_1_1_8_forge_mc1_20.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.21@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 554977,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/supermartijn642corelib_1_1_21_forge_mc1_20_1.jar",
+            "MD5": "eb67e7fea407250cfa9fcf897f9b63b9"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:0.0.0@jar",
+          "name": "Supplementaries_1_20_3_1_42_forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13661432,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/supplementaries_1_20_3_1_42_forge.jar",
+            "MD5": "842a30b8172f55adefc4eb8435dc40ee"
+          }
+        },
+        {
+          "id": "dev.muon:teamsfriendlyfire:0.1.1+1.20.1@jar",
+          "name": "Teams Friendly Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 643058,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/teams_friendly_fire_forge_0_1_1_1_20_1.jar",
+            "MD5": "b37ebcb945a78e8caa3a59d4d761fe19"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107533,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/terrablender_forge_1_20_1_3_0_1_10.jar",
+            "MD5": "1f88ad1b2e0d196f0caf7c03a4abf893"
+          }
+        },
+        {
+          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
+          "name": "Tiny Item Animations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11766,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/tia_1_20_1_1_forge.jar",
+            "MD5": "38982a15516bceae12cb15bf6092b26e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mr_toad.lib.core:toadlib:1.3.5@jar",
+          "name": "ToadLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 506353,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/toadlib_1_3_5_1_20_1.jar",
+            "MD5": "534513edee18af411960384e91752fed"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.tom.storagemod:toms_storage:1.7.1@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 520148,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/toms_storage_1_20_1_7_1.jar",
+            "MD5": "9fac0628fc9767b1bc50dbae38851e11"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:travelerstitles:1.20-Forge-4.0.2@jar",
+          "name": "Traveler's Titles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 228191,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/travelerstitles_1_20_forge_4_0_2.jar",
+            "MD5": "c9052dc79261ec5cd3a243cb031a2164"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.lib:txnilib:1.0.24@jar",
+          "name": "TxniLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3743339,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/txnilib_forge_1_0_24_1_20_1.jar",
+            "MD5": "31823d0999fda413af6dc226481e404a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.valhelsia.valhelsia_core.core:valhelsia_core:1.1.2@jar",
+          "name": "Valhelsia Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203313,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/valhelsia_core_forge_1_20_1_1_1_2.jar",
+            "MD5": "9702cc714dbc069166b4982c0771a0c4"
+          }
+        },
+        {
+          "id": "net.valhelsia:valhelsia_furniture:1.1.3@jar",
+          "name": "Valhelsia Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4518058,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/valhelsia_furniture_forge_1_20_1_1_1_3.jar",
+            "MD5": "370b611b58a0d329c25d9838145677b2"
+          }
+        },
+        {
+          "id": "eu.midnightdust:visualoverhaul:5.0.1@jar",
+          "name": "VisualOverhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 185525,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/visualoverhaul_forge_5_0_1.jar",
+            "MD5": "21d23a8c857177c3dae56c7b4db2c41d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.visualworkbench:visualworkbench:8.0.1@jar",
+          "name": "Visual Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82557,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/visualworkbench_v8_0_1_1_20_1_forge.jar",
+            "MD5": "d934aa0d32ebd83941099737faa5d99f"
+          }
+        },
+        {
+          "id": "generated.forgemod:voxy_0_2_13_alpha_50b2976:0.0.0@jar",
+          "name": "Voxy_0_2_13_alpha_50b2976",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12569077,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/voxy_0_2_13_alpha_50b2976.jar",
+            "MD5": "4249b0a83d517e5c6fcba65194f08272"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.20@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 533739,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/waystones_forge_1_20_1_14_1_20.jar",
+            "MD5": "d093567eb50c8e8af0958c66ed17968b"
+          }
+        },
+        {
+          "id": "net.montoyo.wd:webdisplays:2.0.1-1.20.1@jar",
+          "name": "WebDisplays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 811968,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/webdisplays_2_0_2_1_20_1.jar",
+            "MD5": "e10830a26736c48d5726755a81f20429"
+          }
+        },
+        {
+          "id": "generated.forgemod:worldweaver_21_0_19:0.0.0@jar",
+          "name": "Worldweaver_21_0_19",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2157588,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/worldweaver_21_0_19.jar",
+            "MD5": "a13af193e46a8970f0ead7dbc79de2bf"
+          }
+        },
+        {
+          "id": "de.ambertation:wunderlib:20.0.1@jar",
+          "name": "WunderLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227846,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/wunderlib_20_0_1.jar",
+            "MD5": "ab152e7d10fc21a743ab77f7a244c9f5"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1105891,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/required/yet_another_config_lib_v3_3_6_6_1_20_1_forge.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.4.2+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1075392,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/yetanotherconfiglib_3_4_2_1_20_1_forge.jar",
+            "MD5": "4b533f799dfc1789e1e782bfbb507c56"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/forgemods/optionalon/yungsapi_1_20_forge_4_0_6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "3d_trims_and_shards.zip",
+          "name": "3d_trims_and_shards.zip",
+          "type": "File",
+          "artifact": {
+            "size": 253224,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/3d_trims_and_shards.zip",
+            "MD5": "edb060e559221a68a804a9dbc477ded7",
+            "path": "ressourcepacks/3d_trims_and_shards.zip"
+          }
+        },
+        {
+          "id": "aparticles_updated_1_21_11_8_0_6.zip",
+          "name": "aparticles_updated_1_21_11_8_0_6.zip",
+          "type": "File",
+          "artifact": {
+            "size": 872668,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/aparticles_updated_1_21_11_8_0_6.zip",
+            "MD5": "d92795a7440db51dd6e3088de804c2bb",
+            "path": "ressourcepacks/aparticles_updated_1_21_11_8_0_6.zip"
+          }
+        },
+        {
+          "id": "enhanced_boss_bars.zip",
+          "name": "enhanced_boss_bars.zip",
+          "type": "File",
+          "artifact": {
+            "size": 177857,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/enhanced_boss_bars.zip",
+            "MD5": "ebae19fc963541dd73795e573a8d5ae8",
+            "path": "ressourcepacks/enhanced_boss_bars.zip"
+          }
+        },
+        {
+          "id": "fa_all_extensions_v1_8.zip",
+          "name": "fa_all_extensions_v1_8.zip",
+          "type": "File",
+          "artifact": {
+            "size": 423589,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_all_extensions_v1_8.zip",
+            "MD5": "c71241bdb1ee91ab1c3c5fde1a538899",
+            "path": "ressourcepacks/fa_all_extensions_v1_8.zip"
+          }
+        },
+        {
+          "id": "fa_creepers_v2_1.zip",
+          "name": "fa_creepers_v2_1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 80737,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_creepers_v2_1.zip",
+            "MD5": "cd42cd99676d55e31412de69ed8df563",
+            "path": "ressourcepacks/fa_creepers_v2_1.zip"
+          }
+        },
+        {
+          "id": "fa_details_v2_2.zip",
+          "name": "fa_details_v2_2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 289009,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_details_v2_2.zip",
+            "MD5": "119fac1223e70d6f7e6174efb8590c5d",
+            "path": "ressourcepacks/fa_details_v2_2.zip"
+          }
+        },
+        {
+          "id": "fa_emissive_v1_5.zip",
+          "name": "fa_emissive_v1_5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 91157,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_emissive_v1_5.zip",
+            "MD5": "d239253538921ab681642610124ea87b",
+            "path": "ressourcepacks/fa_emissive_v1_5.zip"
+          }
+        },
+        {
+          "id": "fa_objects_v2_1.zip",
+          "name": "fa_objects_v2_1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 143577,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_objects_v2_1.zip",
+            "MD5": "2bccc4e2e390d5d364ad5fab8fcc51ca",
+            "path": "ressourcepacks/fa_objects_v2_1.zip"
+          }
+        },
+        {
+          "id": "fa_player_v1_0.zip",
+          "name": "fa_player_v1_0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 124472,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_player_v1_0.zip",
+            "MD5": "79b3aa06442c6d83a5cec0c885b3e5a7",
+            "path": "ressourcepacks/fa_player_v1_0.zip"
+          }
+        },
+        {
+          "id": "fa_spiders_v2_1.zip",
+          "name": "fa_spiders_v2_1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 77409,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fa_spiders_v2_1.zip",
+            "MD5": "41d2a34e9effadd0d1d43602338d47e2",
+            "path": "ressourcepacks/fa_spiders_v2_1.zip"
+          }
+        },
+        {
+          "id": "freshanimations_v1_10_4.zip",
+          "name": "freshanimations_v1_10_4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 850941,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/freshanimations_v1_10_4.zip",
+            "MD5": "ab0e8cc3444e98f0fd51ac0d84533d52",
+            "path": "ressourcepacks/freshanimations_v1_10_4.zip"
+          }
+        },
+        {
+          "id": "fresh_food_1_3_3.zip",
+          "name": "fresh_food_1_3_3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1426718,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fresh_food_1_3_3.zip",
+            "MD5": "7d6ad5753b532d4292d3f49b95707fe4",
+            "path": "ressourcepacks/fresh_food_1_3_3.zip"
+          }
+        },
+        {
+          "id": "fresh_music_discs_1_3.zip",
+          "name": "fresh_music_discs_1_3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 257363,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fresh_music_discs_1_3.zip",
+            "MD5": "30267d3a9236329d96a3e60ad5acc50a",
+            "path": "ressourcepacks/fresh_music_discs_1_3.zip"
+          }
+        },
+        {
+          "id": "fresh_ores_and_ingots_1_2_4.zip",
+          "name": "fresh_ores_and_ingots_1_2_4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5167781,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fresh_ores_and_ingots_1_2_4.zip",
+            "MD5": "af70bc9634a94e961fb997b3a3cced5f",
+            "path": "ressourcepacks/fresh_ores_and_ingots_1_2_4.zip"
+          }
+        },
+        {
+          "id": "fyoncle_s_3d_trims.zip",
+          "name": "fyoncle_s_3d_trims.zip",
+          "type": "File",
+          "artifact": {
+            "size": 210173,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/fyoncle_s_3d_trims.zip",
+            "MD5": "637fddc9f7b9df337851150cb2775724",
+            "path": "ressourcepacks/fyoncle_s_3d_trims.zip"
+          }
+        },
+        {
+          "id": "just_3d_armors_1_4.zip",
+          "name": "just_3d_armors_1_4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 466635,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/ressourcepacks/just_3d_armors_1_4.zip",
+            "MD5": "796d7fd3be84e2690547b458f2efa108",
+            "path": "ressourcepacks/just_3d_armors_1_4.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 73,
+            "url": "https://raw.githubusercontent.com/Thinsh0/ServerPoto/main/servers/ServerPoto-1.20.1/files/servers.dat",
+            "MD5": "a9f6ed71303e800fcc146fc4d01eb46f",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}

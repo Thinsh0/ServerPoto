@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///C:/Users/enzom/Desktop/Nebula-master/Nebula-master/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ServerPoto",
+    "description": "",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "91.197.6.11:26364",
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "47.4.18"
+  },
+  "untrackedFiles": []
+}

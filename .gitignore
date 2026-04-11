@@ -1,0 +1,30 @@
+# --- DÉPENDANCES ET BUILDS ---
+# Ces fichiers sont générés localement
+node_modules/
+dist/
+build/
+.nyc_output
+
+# --- VARIABLES D'ENVIRONNEMENT (SÉCURITÉ) ---
+.env
+.env.*
+!.env.example
+
+# --- CACHES ET FICHIERS TEMPORAIRES ---
+# Ces dossiers ne sont PAS dans distribution.json et peuvent être ignorés
+cache/
+libraries/
+.npm
+.eslintcache
+*.log
+
+# --- FICHIERS SYSTÈME / IDE ---
+docs/
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# --- NOTES ---
+# Les dossiers 'repo/' et 'servers/' ne sont PAS ignorés 
+# car ils contiennent les fichiers de votre distribution.
